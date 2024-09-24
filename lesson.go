@@ -1,21 +1,18 @@
 package main
 
-import (
-	"fmt"
-	"os/user"
-	"time"
-)
-
-//func init() {
-//	fmt.Println("init")
-//}
-
-func bazz() {
-	fmt.Println("bazz")
-}
+import "fmt"
 
 func main() {
-	bazz()
-	fmt.Println("Hello World", time.Now())
-	fmt.Println(user.Current())
+	//var (
+	//	i    int     = 1
+	//	f64  float64 = 1.2
+	//	s    string  = "test"
+	//	t, f bool    = true, false
+	//)
+	xi := 1
+	xf64 := 1.2
+	xs := "test"
+	xt, xf := true, false
+	fmt.Println(xi, xf64, xs, xt, xf)
+	fmt.Printf("%T\n", xf64)
 }
