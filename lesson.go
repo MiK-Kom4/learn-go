@@ -2,17 +2,17 @@ package main
 
 import "fmt"
 
+const Pi = 3.1415926
+
+const (
+	Username = "test_user"
+	Password = "test_pass"
+)
+
+// var big int = 9223372036854775807 + 1
+const big = 9223372036854775807 + 1
+
 func main() {
-	//var (
-	//	i    int     = 1
-	//	f64  float64 = 1.2
-	//	s    string  = "test"
-	//	t, f bool    = true, false
-	//)
-	xi := 1
-	xf64 := 1.2
-	xs := "test"
-	xt, xf := true, false
-	fmt.Println(xi, xf64, xs, xt, xf)
-	fmt.Printf("%T\n", xf64)
+	fmt.Println(Pi, Username, Password)
+	fmt.Println(big - 1)
 }
